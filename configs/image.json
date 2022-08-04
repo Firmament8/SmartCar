@@ -1,0 +1,12 @@
+{
+    "model_config": "./",
+    "input": {
+        "type": "image",
+        "path": "./img/1.jpg"
+    },
+    "debug": {
+        "display_enable": true,
+        "predict_log_enable": true,
+        "predict_time_log_enable": true
+    }
+}

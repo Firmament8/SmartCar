@@ -1,0 +1,14 @@
+{
+    "model_file_name":"model",
+    "params_file_name":"params",
+
+    "labels_file_name":"label_list.txt",
+
+    "format":"BGR",
+    "input_width":80,
+    "input_height":40,
+
+    "mean":[103.94,116.78,123.68],
+    "scale":[0.01743, 0.01743, 0.01743],
+    "threshold":0.5
+}

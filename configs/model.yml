@@ -1,0 +1,48 @@
+Model: MobileNetV1
+Transforms:
+- Normalize:
+    max_val:
+    - 255.0
+    - 255.0
+    - 255.0
+    mean:
+    - 0.485
+    - 0.456
+    - 0.406
+    min_val:
+    - 0
+    - 0
+    - 0
+    std:
+    - 0.229
+    - 0.224
+    - 0.225
+TransformsMode: RGB
+_Attributes:
+  eval_metrics:
+    acc1: 0.999
+  fixed_input_shape:
+  - 40
+  - 80
+  labels:
+  - "0\tbeijing"
+  - "1\tjinxing"
+  - "2\tpodao"
+  - "3\tsancha"
+  - "4\tshigong"
+  - "5\tzhuitong"
+  model_type: classifier
+  num_classes: 6
+_ModelInputsOutputs:
+  test_inputs:
+  - - image
+    - image
+  test_outputs:
+  - - predict
+    - softmax_0.tmp_0
+_init_params:
+  input_channel: 3
+  num_classes: 6
+completed_epochs: 0
+status: Infer
+version: 1.3.11

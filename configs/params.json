@@ -1,0 +1,15 @@
+{
+    "serialPort": 1,
+    "track": {
+        "speed": 30,
+        "threshold": 128,
+        "track_deepth": 20,
+        "demo": 0
+    },
+    "pid": {
+        "Ke": 0,
+        "Kp": 2,
+        "Ki": 0,
+        "Kd": 0
+    }
+}
